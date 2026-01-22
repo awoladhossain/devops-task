@@ -3,7 +3,7 @@ import shutil
 
 def duplicate_log_file():
     # Original log file name
-    original_file = "app.log"
+    original_file = './app.log'
 
     # Check if the file exists
     if not os.path.exists(original_file):
